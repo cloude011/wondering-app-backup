@@ -1,0 +1,90 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#FFFCF0">
+    <script data-theme-prepaint="">
+      (function () {
+        var preference = 'light';
+        try {
+          var stored = localStorage.getItem('wondering-theme-prepaint');
+          if (stored === 'light' || stored === 'dark' || stored === 'system') {
+            preference = stored;
+          }
+        } catch (_) {}
+        var systemDark =
+          typeof matchMedia === 'function' &&
+          matchMedia('(prefers-color-scheme: dark)').matches;
+        var resolved =
+          preference === 'system'
+            ? systemDark
+              ? 'dark'
+              : 'light'
+            : preference;
+        var root = document.documentElement;
+        var color = resolved === 'dark' ? '#261312' : '#FFFCF0';
+        root.classList.toggle('dark', resolved === 'dark');
+        root.dataset.theme = resolved;
+        root.style.colorScheme = resolved;
+        root.style.backgroundColor = color;
+        document
+          .querySelector('meta[name="theme-color"]')
+          .setAttribute('content', color);
+      })();
+    </script>
+    <title>Wondering - Learn What You Thought You Couldn't</title>
+    <meta name="description" content="Wondering is an AI-powered learning platform that helps you learn what you thought you couldn't. Visual, interactive, and structured courses that help you learn anything in tiny chunks.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wondering.app/">
+    <meta property="og:title" content="Wondering - Learn What You Thought You Couldn't">
+    <meta property="og:description" content="Wondering is an AI-powered learning platform that helps you learn what you thought you couldn't. Visual, interactive, and structured courses that help you learn anything in tiny chunks.">
+    <meta property="og:image" content="https://wondering.app/wondering-social-card.jpg?v=2">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Wondering: You can learn anything.">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://wondering.app/">
+    <meta name="twitter:title" content="Wondering - Learn What You Thought You Couldn't">
+    <meta name="twitter:description" content="Wondering is an AI-powered learning platform that helps you learn what you thought you couldn't. Visual, interactive, and structured courses that help you learn anything in tiny chunks.">
+    <meta name="twitter:image" content="https://wondering.app/wondering-social-card.jpg?v=2">
+    <meta name="twitter:image:alt" content="Wondering: You can learn anything.">
+
+    <!-- App Purpose - Explicit for Google Verification -->
+    <meta name="application-name" content="Wondering">
+    <meta name="author" content="Wondering">
+    <meta name="keywords" content="learning platform, AI learning, spaced repetition, flashcards, study app, FSRS, personalized learning, AI-generated questions">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#261312">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Wondering">
+    <link rel="preload" href="idle-star.riv" as="fetch" crossorigin="">
+    <script type="module" crossorigin="" src="assets/index-BJ0ocoTB.js"></script>
+    <link rel="stylesheet" crossorigin="" href="assets/index-CkkqAMqV.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script data-shared-course-seo-cleanup="">
+      // The worker injects crawlable SEO content into #root on course, course
+      // directory, and not-found routes. Remove it before the deferred app
+      // bundle loads so it cannot flash before React renders.
+      var seoRoot = document.querySelector('#root[data-seo-server-content]');
+      if (seoRoot) {
+        seoRoot.innerHTML = '';
+        seoRoot.removeAttribute('data-seo-server-content');
+      }
+    </script>
+  <script type="module" src="beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"42200af044b744b79c4d1683c1eeb0db","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

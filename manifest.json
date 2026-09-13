@@ -1,0 +1,41 @@
+{
+  "name": "Wondering - Learn Anything",
+  "short_name": "Wondering",
+  "description": "AI learning companion that helps you Learn what matters to you in the most personalized and structured way.",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#FFFCF0",
+  "background_color": "#FFFCF0",
+  "color_scheme_dark": {
+    "theme_color": "#261312",
+    "background_color": "#261312"
+  },
+  "categories": ["education", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Practice",
+      "short_name": "Practice",
+      "description": "Start a practice session",
+      "url": "/app/home",
+      "icons": [{ "src": "/favicon-96x96.png", "sizes": "96x96" }]
+    }
+  ]
+}

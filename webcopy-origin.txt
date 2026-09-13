@@ -1,0 +1,388 @@
+Uri: https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495
+File Name: C:\Downloaded Web Sites\wondering.app\beacon.min.js\v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495
+Content Type: text/javascript
+
+Uri: https://wondering.app/
+File Name: C:\Downloaded Web Sites\wondering.app\index.htm
+Content Type: text/html
+
+Uri: https://wondering.app/apple-touch-icon.png
+File Name: C:\Downloaded Web Sites\wondering.app\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://wondering.app/assets/gaegu-latin-400-normal-BZ0xBS4u.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\gaegu-latin-400-normal-BZ0xBS4u.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/index-BJ0ocoTB.js
+File Name: C:\Downloaded Web Sites\wondering.app\assets\index-BJ0ocoTB.js
+Content Type: text/javascript
+
+Uri: https://wondering.app/assets/index-CkkqAMqV.css
+File Name: C:\Downloaded Web Sites\wondering.app\assets\index-CkkqAMqV.css
+Content Type: text/css
+
+Uri: https://wondering.app/assets/inter-cyrillic-ext-standard-italic-fe11NjBs.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-cyrillic-ext-standard-italic-fe11NjBs.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-cyrillic-ext-standard-normal-CfYZpDVp.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-cyrillic-ext-standard-normal-CfYZpDVp.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-cyrillic-standard-italic-Ck9oD2H0.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-cyrillic-standard-italic-Ck9oD2H0.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-cyrillic-standard-normal-BFQXbQ-f.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-cyrillic-standard-normal-BFQXbQ-f.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-greek-ext-standard-italic-BIcRYUEt.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-greek-ext-standard-italic-BIcRYUEt.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-greek-ext-standard-normal-BmPQvyvo.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-greek-ext-standard-normal-BmPQvyvo.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-greek-standard-italic-mtaF_0H_.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-greek-standard-italic-mtaF_0H_.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-greek-standard-normal-BM0NlUE_.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-greek-standard-normal-BM0NlUE_.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-latin-ext-standard-italic-BLMf5All.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-latin-ext-standard-italic-BLMf5All.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-latin-ext-standard-normal-DpK-iCPk.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-latin-ext-standard-normal-DpK-iCPk.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-latin-standard-italic-BbqH_2Ar.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-latin-standard-italic-BbqH_2Ar.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-latin-standard-normal-BwkfbSeq.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-latin-standard-normal-BwkfbSeq.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-vietnamese-standard-italic-C7TReJrb.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-vietnamese-standard-italic-C7TReJrb.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/inter-vietnamese-standard-normal-Ci9T9ieq.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\inter-vietnamese-standard-normal-Ci9T9ieq.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_AMS-Regular-BQhdFMY1.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_AMS-Regular-BQhdFMY1.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_AMS-Regular-DMm9YOAa.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_AMS-Regular-DMm9YOAa.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_AMS-Regular-DRggAlZN.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_AMS-Regular-DRggAlZN.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Caligraphic-Bold-ATXxdsX0.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Caligraphic-Bold-ATXxdsX0.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Caligraphic-Bold-BEiXGLvX.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Caligraphic-Bold-BEiXGLvX.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Caligraphic-Bold-Dq_IR9rO.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Caligraphic-Bold-Dq_IR9rO.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Caligraphic-Regular-CTRA-rTL.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Caligraphic-Regular-CTRA-rTL.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Caligraphic-Regular-Di6jR-x-.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Caligraphic-Regular-wX97UBjC.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Caligraphic-Regular-wX97UBjC.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Fraktur-Bold-BdnERNNW.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Fraktur-Bold-BdnERNNW.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Fraktur-Bold-BsDP51OF.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Fraktur-Bold-BsDP51OF.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Fraktur-Bold-CL6g_b3V.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Fraktur-Bold-CL6g_b3V.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Fraktur-Regular-CB_wures.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Fraktur-Regular-CB_wures.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Fraktur-Regular-CTYiF6lA.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Fraktur-Regular-CTYiF6lA.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Fraktur-Regular-Dxdc4cR9.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Fraktur-Regular-Dxdc4cR9.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Main-Bold-Cx986IdX.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Main-Bold-Cx986IdX.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Main-Bold-Jm3AIy58.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Main-Bold-Jm3AIy58.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Main-Bold-waoOVXN0.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Main-Bold-waoOVXN0.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Main-BoldItalic-DxDJ3AOS.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Main-BoldItalic-DxDJ3AOS.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Main-BoldItalic-DzxPMmG6.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Main-BoldItalic-DzxPMmG6.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Main-BoldItalic-SpSLRI95.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Main-BoldItalic-SpSLRI95.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Main-Italic-3WenGoN9.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Main-Italic-3WenGoN9.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Main-Italic-BMLOBm91.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Main-Italic-BMLOBm91.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Main-Italic-NWA7e6Wa.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Main-Italic-NWA7e6Wa.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Main-Regular-B22Nviop.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Main-Regular-B22Nviop.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Main-Regular-Dr94JaBh.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Main-Regular-Dr94JaBh.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Main-Regular-ypZvNtVU.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Main-Regular-ypZvNtVU.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Math-BoldItalic-B3XSjfu4.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Math-BoldItalic-B3XSjfu4.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Math-BoldItalic-CZnvNsCZ.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Math-BoldItalic-CZnvNsCZ.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Math-BoldItalic-iY-2wyZ7.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Math-BoldItalic-iY-2wyZ7.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Math-Italic-DA0__PXp.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Math-Italic-DA0__PXp.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Math-Italic-flOr_0UB.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Math-Italic-flOr_0UB.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Math-Italic-t53AETM-.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Math-Italic-t53AETM-.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_SansSerif-Bold-CFMepnvq.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_SansSerif-Bold-CFMepnvq.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_SansSerif-Bold-D1sUS0GD.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_SansSerif-Bold-D1sUS0GD.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_SansSerif-Bold-DbIhKOiC.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_SansSerif-Bold-DbIhKOiC.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_SansSerif-Italic-C3H0VqGB.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_SansSerif-Italic-C3H0VqGB.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_SansSerif-Italic-DN2j7dab.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_SansSerif-Italic-DN2j7dab.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_SansSerif-Italic-YYjJ1zSn.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_SansSerif-Italic-YYjJ1zSn.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_SansSerif-Regular-BNo7hRIc.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_SansSerif-Regular-BNo7hRIc.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_SansSerif-Regular-CS6fqUqJ.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_SansSerif-Regular-CS6fqUqJ.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_SansSerif-Regular-DDBCnlJ7.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_SansSerif-Regular-DDBCnlJ7.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Script-Regular-C5JkGWo-.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Script-Regular-C5JkGWo-.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Script-Regular-D3wIWfF6.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Script-Regular-D3wIWfF6.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Script-Regular-D5yQViql.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Script-Regular-D5yQViql.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Size1-Regular-C195tn64.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Size1-Regular-C195tn64.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Size1-Regular-Dbsnue_I.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Size1-Regular-Dbsnue_I.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Size1-Regular-mCD8mA8B.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Size1-Regular-mCD8mA8B.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Size2-Regular-B7gKUWhC.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Size2-Regular-B7gKUWhC.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Size2-Regular-Dy4dx90m.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Size2-Regular-Dy4dx90m.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Size2-Regular-oD1tc_U0.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Size2-Regular-oD1tc_U0.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Size3-Regular-CTq5MqoE.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Size3-Regular-CTq5MqoE.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Size3-Regular-DgpXs0kz.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Size3-Regular-DgpXs0kz.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Size4-Regular-BF-4gkZK.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Size4-Regular-BF-4gkZK.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Size4-Regular-Dl5lxZxV.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Size4-Regular-DWFBv043.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Size4-Regular-DWFBv043.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Typewriter-Regular-C0xS9mPB.woff
+Content Type: font/woff
+
+Uri: https://wondering.app/assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Typewriter-Regular-CO6r4hn1.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
+File Name: C:\Downloaded Web Sites\wondering.app\assets\KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
+Content Type: font/ttf
+
+Uri: https://wondering.app/assets/public-sans-latin-ext-wght-normal-MQgHevqp.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\public-sans-latin-ext-wght-normal-MQgHevqp.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/public-sans-latin-wght-normal-DdeTHZLK.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\public-sans-latin-wght-normal-DdeTHZLK.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/rubik-latin-wght-normal-CnQIisVs.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\rubik-latin-wght-normal-CnQIisVs.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/share-tech-mono-latin-400-normal-CCqdbj5z.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\share-tech-mono-latin-400-normal-CCqdbj5z.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/slabo-13px-latin-400-normal-8Pc7qfFt.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\slabo-13px-latin-400-normal-8Pc7qfFt.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/slabo-13px-latin-ext-400-normal-C4mddozX.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\slabo-13px-latin-ext-400-normal-C4mddozX.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/young-serif-latin-400-normal-DIMmNPI9.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\young-serif-latin-400-normal-DIMmNPI9.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/assets/young-serif-latin-ext-400-normal-DzElnxZw.woff2
+File Name: C:\Downloaded Web Sites\wondering.app\assets\young-serif-latin-ext-400-normal-DzElnxZw.woff2
+Content Type: font/woff2
+
+Uri: https://wondering.app/favicon-96x96.png
+File Name: C:\Downloaded Web Sites\wondering.app\favicon-96x96.png
+Content Type: image/png
+
+Uri: https://wondering.app/favicon.svg
+File Name: C:\Downloaded Web Sites\wondering.app\favicon.svg
+Content Type: image/svg+xml
+
+Uri: https://wondering.app/idle-star.riv
+File Name: C:\Downloaded Web Sites\wondering.app\idle-star.riv
+Content Type: 
+
+Uri: https://wondering.app/manifest.json
+File Name: C:\Downloaded Web Sites\wondering.app\manifest.json
+Content Type: application/json
+
+Uri: https://wondering.app/star-ask-dark.svg
+File Name: C:\Downloaded Web Sites\wondering.app\star-ask-dark.svg
+Content Type: image/svg+xml
+
+Uri: https://wondering.app/star-dark.svg
+File Name: C:\Downloaded Web Sites\wondering.app\star-dark.svg
+Content Type: image/svg+xml
+
+Uri: https://wondering.app/star.svg
+File Name: C:\Downloaded Web Sites\wondering.app\star.svg
+Content Type: image/svg+xml
+
+Uri: https://wondering.app/wise-star/wise-star-dark.svg
+File Name: C:\Downloaded Web Sites\wondering.app\wise-star\wise-star-dark.svg
+Content Type: image/svg+xml
+
+Uri: https://wondering.app/wise-star/wise-star-facial-hair-dark.svg
+File Name: C:\Downloaded Web Sites\wondering.app\wise-star\wise-star-facial-hair-dark.svg
+Content Type: image/svg+xml
+
+Uri: https://wondering.app/wise-star/wise-star-staff-dark.svg
+File Name: C:\Downloaded Web Sites\wondering.app\wise-star\wise-star-staff-dark.svg
+Content Type: image/svg+xml
+
