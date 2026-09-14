@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- 1. Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- Definitions for Arrowhead -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="10" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="40" font-weight="bold"
+        fill="#261312" text-anchor="middle">
+    The Four Stoic Virtues
+  </text>
+
+  <!-- CONNECTING LINES -->
+  <!-- Line to Wisdom (Top Left) -->
+  <line x1="330" y1="260" x2="260" y2="210"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Line to Justice (Top Right) -->
+  <line x1="470" y1="260" x2="540" y2="210"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Line to Courage (Bottom Left) -->
+  <line x1="330" y1="340" x2="260" y2="390"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Line to Temperance (Bottom Right) -->
+  <line x1="470" y1="340" x2="540" y2="390"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- RELATIONSHIP LABELS (Beside lines) -->
+  <text x="240" y="250" font-family="Arial, sans-serif" font-size="26" fill="#3C2A28" text-anchor="end">
+    Knowledge
+  </text>
+  <text x="560" y="250" font-family="Arial, sans-serif" font-size="26" fill="#3C2A28" text-anchor="start">
+    Fairness
+  </text>
+  <text x="240" y="370" font-family="Arial, sans-serif" font-size="26" fill="#3C2A28" text-anchor="end">
+    Endurance
+  </text>
+  <text x="560" y="370" font-family="Arial, sans-serif" font-size="26" fill="#3C2A28" text-anchor="start">
+    Moderation
+  </text>
+
+  <!-- CENTRAL NODE: Stoic Virtue -->
+  <rect x="290" y="250" width="220" height="100" rx="20"
+        fill="#FFFCF0" stroke="#3C2A28" stroke-width="4"/>
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="32" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    STOICISM
+  </text>
+
+  <!-- NODE 1: Wisdom (Top Left) -->
+  <rect x="80" y="110" width="200" height="100" rx="20"
+        fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <text x="180" y="160" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Wisdom
+  </text>
+
+  <!-- NODE 2: Justice (Top Right) -->
+  <rect x="520" y="110" width="200" height="100" rx="20"
+        fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <text x="620" y="160" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Justice
+  </text>
+
+  <!-- NODE 3: Courage (Bottom Left) -->
+  <rect x="80" y="390" width="200" height="100" rx="20"
+        fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <text x="180" y="440" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Courage
+  </text>
+
+  <!-- NODE 4: Temperance (Bottom Right) -->
+  <rect x="520" y="390" width="200" height="100" rx="20"
+        fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+  <text x="620" y="440" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        fill="#FFFCF0" text-anchor="middle" dy="0.35em">
+    Temperance
+  </text>
+
+</svg>

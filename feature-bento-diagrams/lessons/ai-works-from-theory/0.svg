@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="0" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="40"
+        fill="#261312" text-anchor="middle" font-weight="bold">
+    AI Evolution: Theory to App
+  </text>
+
+  <!-- Timeline Axis -->
+  <line x1="80" y1="300" x2="740" y2="300"
+        stroke="#3C2A28" stroke-width="4" marker-end="url(#arrowhead)"/>
+
+  <!-- STEP 1: 1950s (Theory) -->
+  <!-- Connection Line -->
+  <line x1="140" y1="300" x2="140" y2="210" stroke="#3C2A28" stroke-width="3" stroke-dasharray="5,5"/>
+  <!-- Date Label -->
+  <text x="140" y="340" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="middle" font-weight="bold">
+    1950
+  </text>
+  <!-- Box -->
+  <rect x="70" y="130" width="140" height="80"
+        fill="#7BCAFF" stroke="#3C2A28" stroke-width="3" rx="10"/>
+  <!-- Content -->
+  <text x="140" y="170" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Logic
+  </text>
+
+  <!-- STEP 2: 1980s (ML) -->
+  <!-- Connection Line -->
+  <line x1="313" y1="300" x2="313" y2="390" stroke="#3C2A28" stroke-width="3" stroke-dasharray="5,5"/>
+  <!-- Date Label -->
+  <text x="313" y="280" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="middle" font-weight="bold">
+    1980s
+  </text>
+  <!-- Box -->
+  <rect x="243" y="390" width="140" height="80"
+        fill="#5ABDAC" stroke="#3C2A28" stroke-width="3" rx="10"/>
+  <!-- Content -->
+  <text x="313" y="430" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Learning
+  </text>
+
+  <!-- STEP 3: 2010s (Deep Learning) -->
+  <!-- Connection Line -->
+  <line x1="486" y1="300" x2="486" y2="210" stroke="#3C2A28" stroke-width="3" stroke-dasharray="5,5"/>
+  <!-- Date Label -->
+  <text x="486" y="340" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="middle" font-weight="bold">
+    2010s
+  </text>
+  <!-- Box -->
+  <rect x="416" y="130" width="140" height="80"
+        fill="#879A39" stroke="#3C2A28" stroke-width="3" rx="10"/>
+  <!-- Content -->
+  <text x="486" y="170" font-family="Arial, sans-serif" font-size="28"
+        fill="#FFFCF0" text-anchor="middle" dy="0.35em">
+    Neural
+  </text>
+
+  <!-- STEP 4: Today (Transformers/GenAI) -->
+  <!-- Connection Line -->
+  <line x1="660" y1="300" x2="660" y2="390" stroke="#3C2A28" stroke-width="3" stroke-dasharray="5,5"/>
+  <!-- Date Label -->
+  <text x="660" y="280" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="middle" font-weight="bold">
+    Now
+  </text>
+  <!-- Box -->
+  <rect x="590" y="390" width="140" height="80"
+        fill="#DFB431" stroke="#3C2A28" stroke-width="3" rx="10"/>
+  <!-- Content -->
+  <text x="660" y="430" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    GenAI
+  </text>
+
+  <!-- Context Labels (Subtitles for clarity) -->
+  <text x="140" y="100" font-family="Arial, sans-serif" font-size="26"
+        fill="#3C2A28" text-anchor="middle" font-style="italic">
+    (Turing)
+  </text>
+  <text x="313" y="500" font-family="Arial, sans-serif" font-size="26"
+        fill="#3C2A28" text-anchor="middle" font-style="italic">
+    (Patterns)
+  </text>
+  <text x="486" y="100" font-family="Arial, sans-serif" font-size="26"
+        fill="#3C2A28" text-anchor="middle" font-style="italic">
+    (Layers)
+  </text>
+  <text x="660" y="500" font-family="Arial, sans-serif" font-size="26"
+        fill="#3C2A28" text-anchor="middle" font-style="italic">
+    (Context)
+  </text>
+
+</svg>

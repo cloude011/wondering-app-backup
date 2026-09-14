@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Vertical Divider Line -->
+  <line x1="400" y1="100" x2="400" y2="520" stroke="#3C2A28" stroke-width="2" stroke-dasharray="8 8"/>
+  
+  <!-- Section Headers -->
+  <text x="200" y="60" font-family="Arial, sans-serif" font-size="36" fill="#261312" text-anchor="middle" font-weight="bold">Classical Bit</text>
+  <text x="600" y="60" font-family="Arial, sans-serif" font-size="36" fill="#261312" text-anchor="middle" font-weight="bold">Quantum Qubit</text>
+  
+  <!-- LEFT SIDE: Classical Bit -->
+  <!-- State 0 Circle -->
+  <circle cx="200" cy="180" r="60" fill="#7BCAFF" stroke="#3C2A28" stroke-width="4"/>
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="48" fill="#261312" text-anchor="middle" dy="0.35em">0</text>
+  
+  <!-- OR Connector -->
+  <text x="200" y="290" font-family="Arial, sans-serif" font-size="32" fill="#261312" text-anchor="middle" dy="0.35em" font-weight="bold">OR</text>
+  
+  <!-- State 1 Circle -->
+  <circle cx="200" cy="400" r="60" fill="#5ABDAC" stroke="#3C2A28" stroke-width="4"/>
+  <text x="200" y="400" font-family="Arial, sans-serif" font-size="48" fill="#261312" text-anchor="middle" dy="0.35em">1</text>
+  
+  <!-- Left Footer -->
+  <text x="200" y="550" font-family="Arial, sans-serif" font-size="30" fill="#3C2A28" text-anchor="middle">Fixed Value</text>
+  
+  <!-- RIGHT SIDE: Quantum Qubit -->
+  <!-- Bloch Sphere Representation -->
+  <!-- Main Sphere Circle -->
+  <circle cx="600" cy="290" r="130" fill="#FFFCF0" stroke="#3C2A28" stroke-width="4"/>
+  
+  <!-- Equator (3D Effect) -->
+  <ellipse cx="600" cy="290" rx="130" ry="40" fill="none" stroke="#3C2A28" stroke-width="2" stroke-dasharray="6 4" opacity="0.6"/>
+  
+  <!-- Vertical Axis -->
+  <line x1="600" y1="160" x2="600" y2="420" stroke="#3C2A28" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Quantum State Vector -->
+  <line x1="600" y1="290" x2="675" y2="215" stroke="#DFB431" stroke-width="8" marker-end="url(#arrowhead-gold)"/>
+  
+  <!-- Sphere Labels -->
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="32" fill="#261312" text-anchor="middle">|0⟩</text>
+  <text x="600" y="460" font-family="Arial, sans-serif" font-size="32" fill="#261312" text-anchor="middle">|1⟩</text>
+  
+  <!-- Vector Label -->
+  <text x="705" y="210" font-family="Arial, sans-serif" font-size="28" fill="#DFB431" text-anchor="start" font-weight="bold">State</text>
+  
+  <!-- Right Footer -->
+  <text x="600" y="550" font-family="Arial, sans-serif" font-size="30" fill="#3C2A28" text-anchor="middle">Superposition</text>
+
+  <!-- Definitions -->
+  <defs>
+    <marker id="arrowhead-gold" markerWidth="12" markerHeight="10" refX="0" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 12 5, 0 10" fill="#DFB431"/>
+    </marker>
+  </defs>
+</svg>

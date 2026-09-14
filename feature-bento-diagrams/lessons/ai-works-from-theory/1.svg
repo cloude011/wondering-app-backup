@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" refX="10" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="38" fill="#261312" text-anchor="middle" font-weight="bold">
+    Neural Network
+  </text>
+
+  <!-- Input Layer -->
+  <circle cx="150" cy="200" r="45" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <circle cx="150" cy="350" r="45" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <text x="150" y="440" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle">Input</text>
+
+  <!-- Hidden Layer -->
+  <circle cx="400" cy="150" r="45" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <circle cx="400" cy="275" r="45" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <circle cx="400" cy="400" r="45" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <text x="400" y="490" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle">Hidden</text>
+
+  <!-- Output Layer -->
+  <circle cx="650" cy="275" r="45" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <text x="650" y="360" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle">Result</text>
+
+  <!-- Connections: Input to Hidden -->
+  <line x1="195" y1="200" x2="345" y2="155" stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <line x1="195" y1="200" x2="345" y2="265" stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <line x1="195" y1="350" x2="345" y2="285" stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <line x1="195" y1="350" x2="345" y2="390" stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Connections: Hidden to Output -->
+  <line x1="445" y1="150" x2="595" y2="260" stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <line x1="445" y1="275" x2="595" y2="275" stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <line x1="445" y1="400" x2="595" y2="290" stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Labels for Process -->
+  <text x="275" y="550" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle">1. Weights</text>
+  <text x="525" y="550" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle">2. Signal</text>
+</svg>

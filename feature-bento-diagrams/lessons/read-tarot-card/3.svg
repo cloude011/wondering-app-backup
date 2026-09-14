@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- Definitions for Markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12"
+            markerUnits="userSpaceOnUse" refX="12" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="40" font-weight="bold"
+        fill="#261312" text-anchor="middle">
+    The Fool's Journey
+  </text>
+  <text x="400" y="125" font-family="Arial, sans-serif" font-size="28"
+        fill="#3C2A28" text-anchor="middle">
+    Major Arcana Evolution
+  </text>
+
+  <!-- CARD 1: The Fool (Start) -->
+  <g transform="translate(60, 200)">
+    <!-- Card Shape -->
+    <rect x="0" y="0" width="180" height="240" rx="12"
+          fill="#7BCAFF" stroke="#3C2A28" stroke-width="4"/>
+    <!-- Card Number & Name -->
+    <text x="90" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+          fill="#261312" text-anchor="middle">
+      0. FOOL
+    </text>
+    <!-- Icon/Symbol representation (Circle) -->
+    <circle cx="90" cy="120" r="30" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+    <!-- Meaning -->
+    <text x="90" y="190" font-family="Arial, sans-serif" font-size="28"
+          fill="#261312" text-anchor="middle">
+      Leap
+    </text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <line x1="250" y1="320" x2="298" y2="320"
+        stroke="#3C2A28" stroke-width="4" marker-end="url(#arrowhead)"/>
+
+  <!-- CARD 2: The Wheel (Middle) -->
+  <g transform="translate(310, 200)">
+    <!-- Card Shape -->
+    <rect x="0" y="0" width="180" height="240" rx="12"
+          fill="#5ABDAC" stroke="#3C2A28" stroke-width="4"/>
+    <!-- Card Number & Name -->
+    <text x="90" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+          fill="#261312" text-anchor="middle">
+      10. WHEEL
+    </text>
+    <!-- Icon/Symbol representation (Diamond) -->
+    <rect x="60" y="90" width="60" height="60" transform="rotate(45 90 120)"
+          fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+    <!-- Meaning -->
+    <text x="90" y="190" font-family="Arial, sans-serif" font-size="28"
+          fill="#261312" text-anchor="middle">
+      Fate
+    </text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <line x1="500" y1="320" x2="548" y2="320"
+        stroke="#3C2A28" stroke-width="4" marker-end="url(#arrowhead)"/>
+
+  <!-- CARD 3: The World (End) -->
+  <g transform="translate(560, 200)">
+    <!-- Card Shape -->
+    <rect x="0" y="0" width="180" height="240" rx="12"
+          fill="#DFB431" stroke="#3C2A28" stroke-width="4"/>
+    <!-- Card Number & Name -->
+    <text x="90" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+          fill="#261312" text-anchor="middle">
+      21. WORLD
+    </text>
+    <!-- Icon/Symbol representation (Ring) -->
+    <circle cx="90" cy="120" r="30" fill="none" stroke="#FFFCF0" stroke-width="6"/>
+    <!-- Meaning -->
+    <text x="90" y="190" font-family="Arial, sans-serif" font-size="28"
+          fill="#261312" text-anchor="middle">
+      Whole
+    </text>
+  </g>
+
+  <!-- Bottom Labels / Context -->
+  <g transform="translate(0, 480)">
+    <text x="150" y="0" font-family="Arial, sans-serif" font-size="26" font-style="italic"
+          fill="#3C2A28" text-anchor="middle">
+      Innocence
+    </text>
+    <text x="400" y="0" font-family="Arial, sans-serif" font-size="26" font-style="italic"
+          fill="#3C2A28" text-anchor="middle">
+      Turning Point
+    </text>
+    <text x="650" y="0" font-family="Arial, sans-serif" font-size="26" font-style="italic"
+          fill="#3C2A28" text-anchor="middle">
+      Completion
+    </text>
+  </g>
+
+</svg>

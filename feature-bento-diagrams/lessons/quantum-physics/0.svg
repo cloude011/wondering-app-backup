@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- Definitions for markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="12" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="36" font-weight="bold"
+        fill="#261312" text-anchor="middle">
+    Double-Slit Experiment
+  </text>
+
+  <!-- 1. SOURCE SECTION -->
+  <!-- Source Particle Emitter -->
+  <circle cx="100" cy="300" r="30" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  
+  <!-- Label: Source -->
+  <text x="100" y="360" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle">
+    Source
+  </text>
+
+  <!-- Initial Waves (Pre-Slit) -->
+  <!-- Using arcs to show wavefronts moving right -->
+  <path d="M 160 260 A 50 50 0 0 1 160 340" fill="none" stroke="#5ABDAC" stroke-width="4"/>
+  <path d="M 200 240 A 80 80 0 0 1 200 360" fill="none" stroke="#5ABDAC" stroke-width="4"/>
+  <path d="M 240 220 A 110 110 0 0 1 240 380" fill="none" stroke="#5ABDAC" stroke-width="4"/>
+
+  <!-- 2. BARRIER SECTION -->
+  <!-- The Wall with two slits -->
+  <!-- Top part -->
+  <rect x="320" y="100" width="20" height="160" fill="#3C2A28" rx="4"/>
+  <!-- Middle part -->
+  <rect x="320" y="290" width="20" height="20" fill="#3C2A28" rx="4"/>
+  <!-- Bottom part -->
+  <rect x="320" y="340" width="20" height="160" fill="#3C2A28" rx="4"/>
+
+  <!-- Label: Slits -->
+  <text x="330" y="80" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle">
+    Slits
+  </text>
+
+  <!-- 3. INTERFERENCE SECTION -->
+  <!-- Waves from Top Slit (approx y=275) -->
+  <g stroke="#879A39" stroke-width="3" fill="none" opacity="0.7">
+    <path d="M 350 275 Q 450 275 500 225"/>
+    <path d="M 350 275 Q 480 300 600 200"/>
+    <path d="M 350 275 Q 480 350 600 400"/>
+  </g>
+
+  <!-- Waves from Bottom Slit (approx y=325) -->
+  <g stroke="#879A39" stroke-width="3" fill="none" opacity="0.7">
+    <path d="M 350 325 Q 450 325 500 375"/>
+    <path d="M 350 325 Q 480 300 600 400"/>
+    <path d="M 350 325 Q 480 250 600 200"/>
+  </g>
+  
+  <!-- Label: Interference -->
+  <text x="480" y="520" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="middle">
+    Wave Interference
+  </text>
+  <!-- Line pointing to waves -->
+  <line x1="480" y1="490" x2="480" y2="400" stroke="#3C2A28" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- 4. SCREEN & RESULT SECTION -->
+  <!-- The Detection Screen -->
+  <rect x="620" y="100" width="20" height="400" fill="#261312" rx="4"/>
+
+  <!-- The Intensity Pattern (The "Result") -->
+  <!-- Visualizing the peaks and troughs of probability/brightness -->
+  <path d="M 640 100 
+           L 660 100
+           Q 670 150 660 180 
+           Q 650 200 670 220 
+           Q 720 250 720 300 
+           Q 720 350 670 380 
+           Q 650 400 660 420 
+           Q 670 450 660 500
+           L 640 500 Z" 
+        fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+
+  <!-- Label: Screen -->
+  <text x="630" y="550" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle">
+    Screen
+  </text>
+
+  <!-- Label: Pattern -->
+  <text x="730" y="300" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="middle" transform="rotate(90, 730, 300)">
+    Pattern
+  </text>
+
+</svg>

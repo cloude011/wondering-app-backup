@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- Definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="0" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="40" font-weight="bold"
+        fill="#261312" text-anchor="middle">
+    Roman History
+  </text>
+
+  <!-- Central Timeline Axis -->
+  <line x1="400" y1="100" x2="400" y2="560"
+        stroke="#3C2A28" stroke-width="4" marker-end="url(#arrowhead)"/>
+
+  <!-- Event 1: Founding -->
+  <g>
+    <!-- Connector -->
+    <line x1="360" y1="150" x2="400" y2="150" stroke="#3C2A28" stroke-width="3"/>
+    <!-- Box -->
+    <rect x="60" y="110" width="300" height="80" rx="10"
+          fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+    <!-- Text -->
+    <text x="210" y="150" font-family="Arial, sans-serif" font-size="28"
+          fill="#261312" text-anchor="middle" dy="0.35em" font-weight="bold">
+      753 BC: Kingdom
+    </text>
+    <!-- Central Marker -->
+    <circle cx="400" cy="150" r="10" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  </g>
+
+  <!-- Event 2: Republic -->
+  <g>
+    <!-- Connector -->
+    <line x1="400" y1="270" x2="440" y2="270" stroke="#3C2A28" stroke-width="3"/>
+    <!-- Box -->
+    <rect x="440" y="230" width="300" height="80" rx="10"
+          fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+    <!-- Text -->
+    <text x="590" y="270" font-family="Arial, sans-serif" font-size="28"
+          fill="#261312" text-anchor="middle" dy="0.35em" font-weight="bold">
+      509 BC: Republic
+    </text>
+    <!-- Central Marker -->
+    <circle cx="400" cy="270" r="10" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  </g>
+
+  <!-- Event 3: High Empire -->
+  <g>
+    <!-- Connector -->
+    <line x1="360" y1="390" x2="400" y2="390" stroke="#3C2A28" stroke-width="3"/>
+    <!-- Box -->
+    <rect x="60" y="350" width="300" height="80" rx="10"
+          fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+    <!-- Text -->
+    <text x="210" y="390" font-family="Arial, sans-serif" font-size="28"
+          fill="#261312" text-anchor="middle" dy="0.35em" font-weight="bold">
+      27 BC: Empire
+    </text>
+    <!-- Central Marker -->
+    <circle cx="400" cy="390" r="10" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  </g>
+
+  <!-- Event 4: Fall of West -->
+  <g>
+    <!-- Connector -->
+    <line x1="400" y1="510" x2="440" y2="510" stroke="#3C2A28" stroke-width="3"/>
+    <!-- Box -->
+    <rect x="440" y="470" width="300" height="80" rx="10"
+          fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+    <!-- Text -->
+    <text x="590" y="510" font-family="Arial, sans-serif" font-size="28"
+          fill="#261312" text-anchor="middle" dy="0.35em" font-weight="bold">
+      476 AD: The Fall
+    </text>
+    <!-- Central Marker -->
+    <circle cx="400" cy="510" r="10" fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+  </g>
+</svg>

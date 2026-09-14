@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Defs for Arrowhead -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="0" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- START NODE -->
+  <!-- Oval shape -->
+  <ellipse cx="400" cy="70" rx="130" ry="45"
+           fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="30" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Child Acts Up
+  </text>
+
+  <!-- Arrow: Start -> Safety -->
+  <line x1="400" y1="115" x2="400" y2="128"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- DECISION 1: SAFETY -->
+  <!-- Diamond shape -->
+  <polygon points="400,140 520,200 400,260 280,200"
+           fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Is it Unsafe?
+  </text>
+
+  <!-- Arrow: Safety -> Stop (YES/Left) -->
+  <line x1="280" y1="200" x2="232" y2="200"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="256" y="190" font-family="Arial, sans-serif" font-size="26"
+        fill="#3C2A28" text-anchor="middle">Yes</text>
+
+  <!-- Arrow: Safety -> Needs (NO/Down) -->
+  <line x1="400" y1="260" x2="400" y2="288"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="415" y="285" font-family="Arial, sans-serif" font-size="26"
+        fill="#3C2A28" text-anchor="start">No</text>
+
+  <!-- ACTION 1: STOP (Left Branch) -->
+  <rect x="20" y="150" width="200" height="100" rx="10"
+        fill="#3C2A28" stroke="#3C2A28" stroke-width="3"/>
+  <text x="120" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        fill="#FFFCF0" text-anchor="middle" dy="0.35em">
+    Stop It Now
+  </text>
+
+  <!-- DECISION 2: NEEDS -->
+  <!-- Diamond shape -->
+  <polygon points="400,300 520,360 400,420 280,360"
+           fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Hungry/Tired?
+  </text>
+
+  <!-- Arrow: Needs -> Meet Needs (YES/Right) -->
+  <line x1="520" y1="360" x2="568" y2="360"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="544" y="350" font-family="Arial, sans-serif" font-size="26"
+        fill="#3C2A28" text-anchor="middle">Yes</text>
+
+  <!-- Arrow: Needs -> Teach (NO/Down) -->
+  <line x1="400" y1="420" x2="400" y2="458"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="415" y="450" font-family="Arial, sans-serif" font-size="26"
+        fill="#3C2A28" text-anchor="start">No</text>
+
+  <!-- ACTION 2: MEET NEEDS (Right Branch) -->
+  <rect x="580" y="310" width="200" height="100" rx="10"
+        fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <text x="680" y="360" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Meet Needs
+  </text>
+
+  <!-- ACTION 3: TEACH (Bottom) -->
+  <rect x="290" y="470" width="220" height="100" rx="10"
+        fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <text x="400" y="520" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Teach &amp; Guide
+  </text>
+
+</svg>

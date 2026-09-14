@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- 1. Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- 2. Main Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#261312" text-anchor="middle">
+    Reading Tarot: The Moon
+  </text>
+  
+  <!-- Divider Line -->
+  <line x1="400" y1="100" x2="400" y2="540" stroke="#3C2A28" stroke-width="2" stroke-dasharray="8,8"/>
+
+  <!-- =========================================
+       LEFT SIDE: UPRIGHT
+       ========================================= -->
+  
+  <!-- Section Label -->
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle">
+    Upright
+  </text>
+
+  <!-- Card Group (Upright) -->
+  <g transform="translate(100, 140)">
+    <!-- Card Body -->
+    <rect width="200" height="320" rx="16" fill="#7BCAFF" stroke="#3C2A28" stroke-width="4"/>
+    
+    <!-- Card Number (XVIII - The Moon) -->
+    <text x="100" y="40" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle">
+      XVIII
+    </text>
+    
+    <!-- Moon Symbol -->
+    <!-- Outer yellow circle -->
+    <circle cx="100" cy="160" r="60" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+    <!-- Inner card-color circle to create crescent effect -->
+    <circle cx="125" cy="150" r="50" fill="#7BCAFF"/>
+    <!-- Re-stroke the crescent inner edge -->
+    <path d="M 132,101 A 50,50 0 0,0 132,199" fill="none" stroke="#3C2A28" stroke-width="3"/>
+    
+    <!-- Decorative Stars -->
+    <circle cx="50" cy="240" r="6" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+    <circle cx="150" cy="240" r="6" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+    <circle cx="100" cy="260" r="8" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+  </g>
+
+  <!-- Meaning Label -->
+  <text x="200" y="520" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#3C2A28" text-anchor="middle">
+    Illusion
+  </text>
+  <text x="200" y="555" font-family="Arial, sans-serif" font-size="26" fill="#3C2A28" text-anchor="middle">
+    (Confusion)
+  </text>
+
+  <!-- =========================================
+       RIGHT SIDE: REVERSED
+       ========================================= -->
+
+  <!-- Section Label -->
+  <text x="600" y="110" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle">
+    Reversed
+  </text>
+
+  <!-- Card Group (Reversed - Rotated 180 degrees around its center) -->
+  <!-- Center of card is x=600, y=140+(320/2)=300 -->
+  <g transform="rotate(180, 600, 300)">
+    <g transform="translate(500, 140)">
+      <!-- Card Body -->
+      <rect width="200" height="320" rx="16" fill="#7BCAFF" stroke="#3C2A28" stroke-width="4"/>
+      
+      <!-- Card Number (XVIII) -->
+      <text x="100" y="40" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle">
+        XVIII
+      </text>
+      
+      <!-- Moon Symbol (Same geometry as upright, rotation handles the visual flip) -->
+      <circle cx="100" cy="160" r="60" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+      <circle cx="125" cy="150" r="50" fill="#7BCAFF"/>
+      <path d="M 132,101 A 50,50 0 0,0 132,199" fill="none" stroke="#3C2A28" stroke-width="3"/>
+      
+      <!-- Decorative Stars -->
+      <circle cx="50" cy="240" r="6" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+      <circle cx="150" cy="240" r="6" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+      <circle cx="100" cy="260" r="8" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Meaning Label -->
+  <text x="600" y="520" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#3C2A28" text-anchor="middle">
+    Clarity
+  </text>
+  <text x="600" y="555" font-family="Arial, sans-serif" font-size="26" fill="#3C2A28" text-anchor="middle">
+    (Truth)
+  </text>
+
+</svg>

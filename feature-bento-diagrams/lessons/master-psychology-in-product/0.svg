@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- Main Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#261312" text-anchor="middle">
+    UX Psychology Laws
+  </text>
+
+  <!-- DEFINITIONS -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" refX="0" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- QUADRANT 1: HICK'S LAW (Top Left) -->
+  <g transform="translate(40, 100)">
+    <!-- Card Background -->
+    <rect width="340" height="220" rx="16" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+    
+    <!-- Title -->
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle">
+      Hick's Law
+    </text>
+    
+    <!-- Visual: Simplification (Many to One) -->
+    <rect x="70" y="80" width="40" height="40" rx="4" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    <rect x="70" y="140" width="40" height="40" rx="4" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    
+    <!-- Arrow -->
+    <line x1="130" y1="130" x2="198" y2="130" stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+    
+    <!-- Result -->
+    <rect x="220" y="90" width="80" height="80" rx="8" fill="#261312" stroke="#3C2A28" stroke-width="2"/>
+    
+    <!-- Label -->
+    <text x="170" y="200" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle">
+      Simplify Choices
+    </text>
+  </g>
+
+  <!-- QUADRANT 2: FITTS'S LAW (Top Right) -->
+  <g transform="translate(420, 100)">
+    <!-- Card Background -->
+    <rect width="340" height="220" rx="16" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+    
+    <!-- Title -->
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle">
+      Fitts's Law
+    </text>
+    
+    <!-- Visual: Large Target -->
+    <circle cx="240" cy="110" r="45" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+    <text x="240" y="110" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle" dy="0.35em">CLICK</text>
+    
+    <!-- Cursor Arrow -->
+    <polygon points="100,150 115,100 130,150 115,140" fill="#261312" stroke="#3C2A28" stroke-width="2"/>
+    
+    <!-- Label -->
+    <text x="170" y="200" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle">
+      Make Targets Big
+    </text>
+  </g>
+
+  <!-- QUADRANT 3: JAKOB'S LAW (Bottom Left) -->
+  <g transform="translate(40, 350)">
+    <!-- Card Background -->
+    <rect width="340" height="220" rx="16" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+    
+    <!-- Title -->
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle">
+      Jakob's Law
+    </text>
+    
+    <!-- Visual: Standard Layout (Home Icon) -->
+    <path d="M120 120 L170 70 L220 120 L220 170 L120 170 Z" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+    <rect x="155" y="140" width="30" height="30" fill="#3C2A28"/>
+    
+    <!-- Label -->
+    <text x="170" y="200" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle">
+      Use Patterns
+    </text>
+  </g>
+
+  <!-- QUADRANT 4: MILLER'S LAW (Bottom Right) -->
+  <g transform="translate(420, 350)">
+    <!-- Card Background -->
+    <rect width="340" height="220" rx="16" fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+    
+    <!-- Title -->
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle">
+      Miller's Law
+    </text>
+    
+    <!-- Visual: Chunking (Groups of dots) -->
+    <!-- Group 1 -->
+    <rect x="60" y="80" width="90" height="60" rx="8" fill="none" stroke="#261312" stroke-width="2" stroke-dasharray="5,5"/>
+    <circle cx="85" cy="110" r="10" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    <circle cx="125" cy="110" r="10" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    
+    <!-- Group 2 -->
+    <rect x="190" y="80" width="90" height="60" rx="8" fill="none" stroke="#261312" stroke-width="2" stroke-dasharray="5,5"/>
+    <circle cx="215" cy="110" r="10" fill="#261312" stroke="#3C2A28" stroke-width="2"/>
+    <circle cx="255" cy="110" r="10" fill="#261312" stroke="#3C2A28" stroke-width="2"/>
+    
+    <!-- Label -->
+    <text x="170" y="200" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle">
+      Group Content
+    </text>
+  </g>
+</svg>

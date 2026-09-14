@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Main Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">
+    Furniture Design History
+  </text>
+
+  <!-- Vertical Divider Line -->
+  <line x1="400" y1="100" x2="400" y2="560" stroke="#3C2A28" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <!-- Center VS Badge -->
+  <circle cx="400" cy="330" r="30" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">
+    VS
+  </text>
+
+  <!-- LEFT SIDE: MODERNISM (BAUHAUS) -->
+  <g id="bauhaus-section">
+    <!-- Headers -->
+    <text x="200" y="110" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">
+      Modernism
+    </text>
+    <text x="200" y="145" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle" dy="0.35em">
+      (Bauhaus Style)
+    </text>
+
+    <!-- Bauhaus Chair Visualization (Side View Cantilever) -->
+    <!-- Frame: Tubular Steel Representation -->
+    <path d="M 140 240 L 140 500 L 260 500 L 260 380" 
+          fill="none" stroke="#3C2A28" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <!-- Backrest -->
+    <rect x="120" y="240" width="40" height="120" rx="4"
+          fill="#261312" stroke="#3C2A28" stroke-width="3"/>
+    
+    <!-- Seat -->
+    <rect x="140" y="360" width="130" height="30" rx="4"
+          fill="#261312" stroke="#3C2A28" stroke-width="3"/>
+
+    <!-- Descriptor Label -->
+    <rect x="100" y="530" width="200" height="50" rx="8" fill="#5ABDAC" stroke="#3C2A28" stroke-width="2"/>
+    <text x="200" y="555" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">
+      Minimalist
+    </text>
+  </g>
+
+  <!-- RIGHT SIDE: POSTMODERNISM (MEMPHIS) -->
+  <g id="memphis-section">
+    <!-- Headers -->
+    <text x="600" y="110" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">
+      Postmodern
+    </text>
+    <text x="600" y="145" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle" dy="0.35em">
+      (Memphis Style)
+    </text>
+
+    <!-- Memphis Chair Visualization (Geometric/Colorful) -->
+    <!-- Backrest: Yellow Circle -->
+    <circle cx="600" cy="280" r="60" 
+            fill="#DFB431" stroke="#3C2A28" stroke-width="4"/>
+    
+    <!-- Seat: Blue Wedge/Rect -->
+    <rect x="520" y="360" width="160" height="40" 
+          fill="#7BCAFF" stroke="#3C2A28" stroke-width="4"/>
+    
+    <!-- Leg 1: Green Triangle -->
+    <polygon points="540,400 580,400 560,500" 
+             fill="#879A39" stroke="#3C2A28" stroke-width="4"/>
+             
+    <!-- Leg 2: Dark Cylinder -->
+    <rect x="620" y="400" width="40" height="100" rx="10"
+          fill="#261312" stroke="#3C2A28" stroke-width="4"/>
+
+    <!-- Decorative Element: Squiggle -->
+    <path d="M 660 220 Q 720 200 700 300" 
+          fill="none" stroke="#5ABDAC" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Descriptor Label -->
+    <rect x="500" y="530" width="200" height="50" rx="8" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+    <text x="600" y="555" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">
+      Expressive
+    </text>
+  </g>
+
+</svg>

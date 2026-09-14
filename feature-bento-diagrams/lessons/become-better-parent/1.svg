@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Definitions for Arrowhead -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="0" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Main Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="36" font-weight="bold"
+        fill="#3C2A28" text-anchor="middle" dy="0.35em">
+    Parenting Response to Failure
+  </text>
+
+  <!-- Central Divider -->
+  <line x1="400" y1="100" x2="400" y2="560" stroke="#3C2A28" stroke-width="2" stroke-dasharray="8,8"/>
+
+  <!-- LEFT COLUMN: FIXED MINDSET -->
+  <!-- Header -->
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="32" font-weight="bold"
+        fill="#3C2A28" text-anchor="middle">
+    FIXED
+  </text>
+
+  <!-- Step 1: Parent Action -->
+  <rect x="50" y="140" width="300" height="100" rx="15"
+        fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <text x="200" y="190" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Judge the Person
+  </text>
+
+  <!-- Arrow 1 -->
+  <line x1="200" y1="240" x2="200" y2="288"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 2: Child Reaction -->
+  <rect x="50" y="300" width="300" height="100" rx="15"
+        fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Avoids Challenges
+  </text>
+
+  <!-- Arrow 2 -->
+  <line x1="200" y1="400" x2="200" y2="448"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 3: Outcome -->
+  <rect x="50" y="460" width="300" height="100" rx="15"
+        fill="#3C2A28" stroke="#3C2A28" stroke-width="3"/>
+  <text x="200" y="510" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        fill="#FFFCF0" text-anchor="middle" dy="0.35em">
+    Stagnation
+  </text>
+
+  <!-- RIGHT COLUMN: GROWTH MINDSET -->
+  <!-- Header -->
+  <text x="600" y="110" font-family="Arial, sans-serif" font-size="32" font-weight="bold"
+        fill="#3C2A28" text-anchor="middle">
+    GROWTH
+  </text>
+
+  <!-- Step 1: Parent Action -->
+  <rect x="450" y="140" width="300" height="100" rx="15"
+        fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <text x="600" y="190" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Praise the Effort
+  </text>
+
+  <!-- Arrow 1 -->
+  <line x1="600" y1="240" x2="600" y2="288"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 2: Child Reaction -->
+  <rect x="450" y="300" width="300" height="100" rx="15"
+        fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+  <text x="600" y="350" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Learns from Errors
+  </text>
+
+  <!-- Arrow 2 -->
+  <line x1="600" y1="400" x2="600" y2="448"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 3: Outcome -->
+  <rect x="450" y="460" width="300" height="100" rx="15"
+        fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <text x="600" y="510" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Resilience
+  </text>
+
+</svg>

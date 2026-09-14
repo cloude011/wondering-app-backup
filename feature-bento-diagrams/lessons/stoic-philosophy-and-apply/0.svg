@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- Main Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#261312" text-anchor="middle">
+    STOIC DICHOTOMY
+  </text>
+
+  <!-- Central Divider Line -->
+  <line x1="400" y1="100" x2="400" y2="560" stroke="#3C2A28" stroke-width="4" stroke-dasharray="10,10"/>
+
+  <!-- LEFT SIDE: INTERNAL (Control) -->
+  <!-- Header -->
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#261312" text-anchor="middle">
+    INTERNAL
+  </text>
+  <text x="200" y="155" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle" font-style="italic">
+    (Total Control)
+  </text>
+
+  <!-- Item 1 -->
+  <rect x="50" y="190" width="300" height="80" rx="15" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">
+    My Thoughts
+  </text>
+
+  <!-- Item 2 -->
+  <rect x="50" y="300" width="300" height="80" rx="15" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <text x="200" y="340" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">
+    My Values
+  </text>
+
+  <!-- Item 3 -->
+  <rect x="50" y="410" width="300" height="80" rx="15" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <text x="200" y="450" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">
+    My Actions
+  </text>
+
+  <!-- Result/Action -->
+  <text x="200" y="540" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#3C2A28" text-anchor="middle">
+    FOCUS HERE
+  </text>
+
+  <!-- RIGHT SIDE: EXTERNAL (No Control) -->
+  <!-- Header -->
+  <text x="600" y="120" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#261312" text-anchor="middle">
+    EXTERNAL
+  </text>
+  <text x="600" y="155" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle" font-style="italic">
+    (No Control)
+  </text>
+
+  <!-- Item 1 -->
+  <rect x="450" y="190" width="300" height="80" rx="15" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <text x="600" y="230" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">
+    Reputation
+  </text>
+
+  <!-- Item 2 -->
+  <rect x="450" y="300" width="300" height="80" rx="15" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">
+    The Past
+  </text>
+
+  <!-- Item 3 -->
+  <rect x="450" y="410" width="300" height="80" rx="15" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <text x="600" y="450" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">
+    Others' Views
+  </text>
+
+  <!-- Result/Action -->
+  <text x="600" y="540" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#3C2A28" text-anchor="middle">
+    ACCEPT THIS
+  </text>
+
+</svg>

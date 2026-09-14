@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- Definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="0" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="40" font-weight="bold"
+        fill="#261312" text-anchor="middle">
+    SCALE OF REALITY
+  </text>
+
+  <!-- LEVEL 1: MACRO SCALE -->
+  <g transform="translate(50, 80)">
+    <!-- Container -->
+    <rect width="700" height="130" rx="15" fill="#7BCAFF" stroke="#3C2A28" stroke-width="4"/>
+    
+    <!-- Icon: Galaxy/Planet -->
+    <circle cx="100" cy="65" r="25" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+    <ellipse cx="100" cy="65" rx="50" ry="15" fill="none" stroke="#3C2A28" stroke-width="3" transform="rotate(-20, 100, 65)"/>
+    
+    <!-- Text -->
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#261312">
+      MACRO SCALE
+    </text>
+    <text x="200" y="90" font-family="Arial, sans-serif" font-size="26" fill="#261312">
+      Galaxies to Humans (> 1mm)
+    </text>
+  </g>
+
+  <!-- Connector Arrow 1 -->
+  <line x1="400" y1="210" x2="400" y2="238" stroke="#3C2A28" stroke-width="4" marker-end="url(#arrowhead)"/>
+
+  <!-- LEVEL 2: ATOMIC SCALE -->
+  <g transform="translate(50, 250)">
+    <!-- Container -->
+    <rect width="700" height="130" rx="15" fill="#5ABDAC" stroke="#3C2A28" stroke-width="4"/>
+    
+    <!-- Icon: Atom -->
+    <circle cx="100" cy="65" r="10" fill="#261312"/>
+    <ellipse cx="100" cy="65" rx="45" ry="12" fill="none" stroke="#3C2A28" stroke-width="3" transform="rotate(45, 100, 65)"/>
+    <ellipse cx="100" cy="65" rx="45" ry="12" fill="none" stroke="#3C2A28" stroke-width="3" transform="rotate(-45, 100, 65)"/>
+    
+    <!-- Text -->
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#261312">
+      ATOMIC SCALE
+    </text>
+    <text x="200" y="90" font-family="Arial, sans-serif" font-size="26" fill="#261312">
+      Molecules &amp; Atoms (~10⁻¹⁰ m)
+    </text>
+  </g>
+
+  <!-- Connector Arrow 2 -->
+  <line x1="400" y1="380" x2="400" y2="408" stroke="#3C2A28" stroke-width="4" marker-end="url(#arrowhead)"/>
+
+  <!-- LEVEL 3: QUANTUM SCALE -->
+  <g transform="translate(50, 420)">
+    <!-- Container -->
+    <rect width="700" height="130" rx="15" fill="#DFB431" stroke="#3C2A28" stroke-width="4"/>
+    
+    <!-- Icon: Wave/Particle Duality -->
+    <path d="M 50 65 Q 75 35 100 65 T 150 65" fill="none" stroke="#3C2A28" stroke-width="4"/>
+    <circle cx="75" cy="50" r="4" fill="#261312"/>
+    <circle cx="125" cy="80" r="4" fill="#261312"/>
+    <circle cx="100" cy="65" r="4" fill="#261312"/>
+    
+    <!-- Text -->
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#261312">
+      QUANTUM SCALE
+    </text>
+    <text x="200" y="90" font-family="Arial, sans-serif" font-size="26" fill="#261312">
+      Planck Length (~10⁻³⁵ m)
+    </text>
+  </g>
+
+</svg>

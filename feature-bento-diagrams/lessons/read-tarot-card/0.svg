@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Main Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#261312" text-anchor="middle">
+    Tarot Styles
+  </text>
+
+  <!-- Central Divider -->
+  <line x1="400" y1="100" x2="400" y2="560" stroke="#3C2A28" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <!-- LEFT SIDE: RIDER-WAITE-SMITH -->
+  <!-- Header -->
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#261312" text-anchor="middle">
+    Rider-Waite
+  </text>
+
+  <!-- Card Body -->
+  <rect x="100" y="140" width="200" height="320" rx="12" fill="#7BCAFF" stroke="#3C2A28" stroke-width="4"/>
+  
+  <!-- RWS Illustration (Scene-based) -->
+  <!-- Ground -->
+  <path d="M 110 400 Q 200 380 290 400" stroke="#3C2A28" stroke-width="3" fill="none"/>
+  
+  <!-- Figures (Abstract people) -->
+  <circle cx="150" cy="280" r="15" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+  <path d="M 150 295 L 150 360 M 130 360 L 170 360" stroke="#3C2A28" stroke-width="3" fill="none"/>
+  
+  <circle cx="200" cy="270" r="15" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+  <path d="M 200 285 L 200 350 M 180 350 L 220 350" stroke="#3C2A28" stroke-width="3" fill="none"/>
+  
+  <circle cx="250" cy="280" r="15" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+  <path d="M 250 295 L 250 360 M 230 360 L 270 360" stroke="#3C2A28" stroke-width="3" fill="none"/>
+
+  <!-- Cups held high (Interaction) -->
+  <path d="M 140 240 L 160 240 L 150 260 Z" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+  <path d="M 190 230 L 210 230 L 200 250 Z" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+  <path d="M 240 240 L 260 240 L 250 260 Z" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+
+  <!-- Arms connecting -->
+  <path d="M 150 295 Q 175 250 200 285 Q 225 250 250 295" stroke="#3C2A28" stroke-width="2" fill="none"/>
+
+  <!-- Label Box Left -->
+  <rect x="80" y="490" width="240" height="60" rx="8" fill="#261312"/>
+  <text x="200" y="520" font-family="Arial, sans-serif" font-size="28" fill="#FFFCF0" text-anchor="middle" dy="0.35em">
+    Read the Scene
+  </text>
+
+  <!-- RIGHT SIDE: MARSEILLE -->
+  <!-- Header -->
+  <text x="600" y="110" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#261312" text-anchor="middle">
+    Marseille
+  </text>
+
+  <!-- Card Body -->
+  <rect x="500" y="140" width="200" height="320" rx="12" fill="#DFB431" stroke="#3C2A28" stroke-width="4"/>
+  
+  <!-- TdM Illustration (Geometric/Pattern) -->
+  <!-- Decorative Vines -->
+  <path d="M 550 200 Q 600 250 650 200" stroke="#3C2A28" stroke-width="2" fill="none"/>
+  <path d="M 550 400 Q 600 350 650 400" stroke="#3C2A28" stroke-width="2" fill="none"/>
+  <line x1="600" y1="180" x2="600" y2="420" stroke="#3C2A28" stroke-width="2"/>
+
+  <!-- Cups in Geometric Pattern (Triangular layout) -->
+  <!-- Top Center Cup -->
+  <g transform="translate(600, 220)">
+    <path d="M -15 -20 L 15 -20 L 0 10 Z" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+    <rect x="-5" y="10" width="10" height="10" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+    <line x1="-10" y1="20" x2="10" y2="20" stroke="#3C2A28" stroke-width="3"/>
+  </g>
+
+  <!-- Bottom Left Cup -->
+  <g transform="translate(550, 350)">
+    <path d="M -15 -20 L 15 -20 L 0 10 Z" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+    <rect x="-5" y="10" width="10" height="10" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+    <line x1="-10" y1="20" x2="10" y2="20" stroke="#3C2A28" stroke-width="3"/>
+  </g>
+
+  <!-- Bottom Right Cup -->
+  <g transform="translate(650, 350)">
+    <path d="M -15 -20 L 15 -20 L 0 10 Z" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+    <rect x="-5" y="10" width="10" height="10" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+    <line x1="-10" y1="20" x2="10" y2="20" stroke="#3C2A28" stroke-width="3"/>
+  </g>
+
+  <!-- Label Box Right -->
+  <rect x="480" y="490" width="240" height="60" rx="8" fill="#261312"/>
+  <text x="600" y="520" font-family="Arial, sans-serif" font-size="28" fill="#FFFCF0" text-anchor="middle" dy="0.35em">
+    Read the Number
+  </text>
+
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Main Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#261312" text-anchor="middle">
+    Roman Empire Split
+  </text>
+
+  <!-- Vertical Divider Line -->
+  <line x1="400" y1="80" x2="400" y2="560" stroke="#3C2A28" stroke-width="2" stroke-dasharray="8,8"/>
+
+  <!-- COLUMN HEADERS -->
+  <!-- Western Header -->
+  <rect x="30" y="90" width="300" height="70" rx="10" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <text x="180" y="125" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">
+    Western
+  </text>
+
+  <!-- Eastern Header -->
+  <rect x="470" y="90" width="300" height="70" rx="10" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <text x="620" y="125" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">
+    Eastern
+  </text>
+
+  <!-- ROW 1: CAPITAL -->
+  <!-- Center Label -->
+  <rect x="340" y="215" width="120" height="40" rx="20" fill="#3C2A28"/>
+  <text x="400" y="235" font-family="Arial, sans-serif" font-size="26" fill="#FFFCF0" text-anchor="middle" dy="0.35em">
+    Capital
+  </text>
+  
+  <!-- West Data -->
+  <rect x="30" y="200" width="300" height="70" rx="10" fill="#FFFCF0" stroke="#DFB431" stroke-width="4"/>
+  <text x="180" y="235" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">
+    Rome
+  </text>
+
+  <!-- East Data -->
+  <rect x="470" y="200" width="300" height="70" rx="10" fill="#FFFCF0" stroke="#5ABDAC" stroke-width="4"/>
+  <text x="620" y="235" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">
+    Constantinople
+  </text>
+
+  <!-- ROW 2: LANGUAGE -->
+  <!-- Center Label -->
+  <rect x="330" y="345" width="140" height="40" rx="20" fill="#3C2A28"/>
+  <text x="400" y="365" font-family="Arial, sans-serif" font-size="26" fill="#FFFCF0" text-anchor="middle" dy="0.35em">
+    Language
+  </text>
+
+  <!-- West Data -->
+  <rect x="30" y="330" width="300" height="70" rx="10" fill="#FFFCF0" stroke="#DFB431" stroke-width="4"/>
+  <text x="180" y="365" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">
+    Latin
+  </text>
+
+  <!-- East Data -->
+  <rect x="470" y="330" width="300" height="70" rx="10" fill="#FFFCF0" stroke="#5ABDAC" stroke-width="4"/>
+  <text x="620" y="365" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">
+    Greek
+  </text>
+
+  <!-- ROW 3: FATE -->
+  <!-- Center Label -->
+  <rect x="340" y="475" width="120" height="40" rx="20" fill="#3C2A28"/>
+  <text x="400" y="495" font-family="Arial, sans-serif" font-size="26" fill="#FFFCF0" text-anchor="middle" dy="0.35em">
+    Fate
+  </text>
+
+  <!-- West Data -->
+  <rect x="30" y="460" width="300" height="70" rx="10" fill="#FFFCF0" stroke="#DFB431" stroke-width="4"/>
+  <text x="180" y="495" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">
+    Fell 476 AD
+  </text>
+
+  <!-- East Data -->
+  <rect x="470" y="460" width="300" height="70" rx="10" fill="#FFFCF0" stroke="#5ABDAC" stroke-width="4"/>
+  <text x="620" y="495" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">
+    Lasted to 1453
+  </text>
+
+</svg>

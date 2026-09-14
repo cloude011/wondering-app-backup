@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- Main Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#261312" text-anchor="middle">
+    Gestalt in Product Design
+  </text>
+  
+  <!-- Divider Line 1 -->
+  <line x1="50" y1="90" x2="750" y2="90" stroke="#3C2A28" stroke-width="3"/>
+
+  <!-- SECTION 1: PROXIMITY -->
+  <!-- Label -->
+  <text x="180" y="180" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">
+    1. Proximity
+  </text>
+  
+  <!-- Visual: Two distinct clusters -->
+  <!-- Cluster Left -->
+  <rect x="350" y="130" width="40" height="40" rx="8" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <rect x="400" y="130" width="40" height="40" rx="8" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <rect x="350" y="180" width="40" height="40" rx="8" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <rect x="400" y="180" width="40" height="40" rx="8" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  
+  <!-- Cluster Right (Separated by gap) -->
+  <rect x="550" y="130" width="40" height="40" rx="8" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <rect x="600" y="130" width="40" height="40" rx="8" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <rect x="550" y="180" width="40" height="40" rx="8" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <rect x="600" y="180" width="40" height="40" rx="8" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+
+  <!-- Divider Line 2 -->
+  <line x1="50" y1="250" x2="750" y2="250" stroke="#3C2A28" stroke-width="3" stroke-dasharray="8,8"/>
+
+  <!-- SECTION 2: SIMILARITY -->
+  <!-- Label -->
+  <text x="180" y="340" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">
+    2. Similarity
+  </text>
+
+  <!-- Visual: Grouping by shape/color -->
+  <!-- Row 1: Squares (Teal) -->
+  <rect x="350" y="290" width="50" height="50" rx="4" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <rect x="450" y="290" width="50" height="50" rx="4" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <rect x="550" y="290" width="50" height="50" rx="4" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <rect x="650" y="290" width="50" height="50" rx="4" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+
+  <!-- Row 2: Circles (Yellow) -->
+  <circle cx="375" cy="390" r="25" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <circle cx="475" cy="390" r="25" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <circle cx="575" cy="390" r="25" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <circle cx="675" cy="390" r="25" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+
+  <!-- Divider Line 3 -->
+  <line x1="50" y1="440" x2="750" y2="440" stroke="#3C2A28" stroke-width="3" stroke-dasharray="8,8"/>
+
+  <!-- SECTION 3: CONTINUITY -->
+  <!-- Label -->
+  <text x="180" y="520" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">
+    3. Continuity
+  </text>
+
+  <!-- Visual: Eye follows the path -->
+  <!-- Guide line (visual aid) -->
+  <path d="M 350 550 Q 500 450 650 550" fill="none" stroke="#3C2A28" stroke-width="2" stroke-opacity="0.3"/>
+  
+  <!-- Dots following the curve -->
+  <circle cx="350" cy="550" r="15" fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+  <circle cx="400" cy="525" r="15" fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+  <circle cx="450" cy="505" r="15" fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+  <circle cx="500" cy="495" r="15" fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+  <circle cx="550" cy="505" r="15" fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+  <circle cx="600" cy="525" r="15" fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+  <circle cx="650" cy="550" r="15" fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+
+  <!-- Disruptive element (to show the main path is stronger) -->
+  <rect x="485" y="560" width="30" height="30" rx="4" fill="#261312" opacity="0.1"/>
+
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- Definitions for Arrowhead -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="0" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Root Node: Roman Legacy -->
+  <rect x="250" y="50" width="300" height="100" rx="20"
+        fill="#DFB431" stroke="#3C2A28" stroke-width="4"/>
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="36" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Roman Legacy
+  </text>
+
+  <!-- Connecting Lines -->
+  <!-- Left Path -->
+  <line x1="400" y1="154" x2="150" y2="335"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Center Path -->
+  <line x1="400" y1="154" x2="400" y2="335"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Right Path -->
+  <line x1="400" y1="154" x2="650" y2="335"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Connection Labels (Beside Lines) -->
+  <text x="210" y="240" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="end">
+    Latin Roots
+  </text>
+
+  <text x="415" y="260" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="start">
+    Civil Law
+  </text>
+
+  <text x="580" y="240" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="start">
+    Infrastructure
+  </text>
+
+  <!-- Child Node 1: Languages -->
+  <rect x="40" y="350" width="220" height="120" rx="15"
+        fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <text x="150" y="410" font-family="Arial, sans-serif" font-size="30"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Romance
+  </text>
+  <text x="150" y="445" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Languages
+  </text>
+
+  <!-- Child Node 2: Legal Systems -->
+  <rect x="290" y="350" width="220" height="120" rx="15"
+        fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="30"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Legal
+  </text>
+  <text x="400" y="445" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Systems
+  </text>
+
+  <!-- Child Node 3: Engineering -->
+  <rect x="540" y="350" width="220" height="120" rx="15"
+        fill="#879A39" stroke="#3C2A28" stroke-width="3"/>
+  <text x="650" y="410" font-family="Arial, sans-serif" font-size="30"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Engineering
+  </text>
+
+</svg>

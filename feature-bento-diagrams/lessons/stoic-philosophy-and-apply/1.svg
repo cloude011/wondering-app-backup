@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#261312" text-anchor="middle">
+    THE STOIC ARCHER
+  </text>
+
+  <!-- Left Panel: The Archer (Control) -->
+  <rect x="50" y="100" width="300" height="450" rx="20" fill="#7BCAFF" stroke="#3C2A28" stroke-width="4"/>
+  
+  <!-- Header for Left Panel -->
+  <rect x="50" y="100" width="300" height="70" rx="20" fill="#3C2A28"/>
+  <rect x="50" y="130" width="300" height="40" fill="#3C2A28"/> <!-- Square off bottom corners of header -->
+  <text x="200" y="145" font-family="Arial, sans-serif" font-size="32" fill="#FFFCF0" text-anchor="middle" font-weight="bold">
+    INTERNAL
+  </text>
+
+  <!-- Archer Graphics -->
+  <g transform="translate(30, 40)">
+    <!-- Head -->
+    <circle cx="120" cy="250" r="25" fill="#FFFCF0" stroke="#3C2A28" stroke-width="4"/>
+    <!-- Body -->
+    <line x1="120" y1="275" x2="120" y2="360" stroke="#3C2A28" stroke-width="4"/>
+    <!-- Legs -->
+    <line x1="120" y1="360" x2="90" y2="420" stroke="#3C2A28" stroke-width="4"/>
+    <line x1="120" y1="360" x2="150" y2="420" stroke="#3C2A28" stroke-width="4"/>
+    <!-- Arms -->
+    <line x1="120" y1="300" x2="180" y2="300" stroke="#3C2A28" stroke-width="4"/>
+    <line x1="120" y1="300" x2="80" y2="280" stroke="#3C2A28" stroke-width="4"/>
+    <!-- Bow -->
+    <path d="M180 240 Q 160 300 180 360" fill="none" stroke="#3C2A28" stroke-width="4"/>
+    <line x1="180" y1="240" x2="180" y2="360" stroke="#3C2A28" stroke-width="1"/>
+  </g>
+
+  <!-- Label for Archer -->
+  <text x="200" y="510" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle">
+    My Aim &amp; Effort
+  </text>
+  <text x="200" y="540" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle" font-style="italic">
+    (Total Control)
+  </text>
+
+  <!-- Right Panel: The Target (No Control) -->
+  <rect x="450" y="100" width="300" height="450" rx="20" fill="#5ABDAC" stroke="#3C2A28" stroke-width="4"/>
+
+  <!-- Header for Right Panel -->
+  <rect x="450" y="100" width="300" height="70" rx="20" fill="#3C2A28"/>
+  <rect x="450" y="130" width="300" height="40" fill="#3C2A28"/>
+  <text x="600" y="145" font-family="Arial, sans-serif" font-size="32" fill="#FFFCF0" text-anchor="middle" font-weight="bold">
+    EXTERNAL
+  </text>
+
+  <!-- Target Graphics -->
+  <g transform="translate(0, 40)">
+    <circle cx="600" cy="300" r="80" fill="#FFFCF0" stroke="#3C2A28" stroke-width="4"/>
+    <circle cx="600" cy="300" r="55" fill="#DFB431" stroke="#3C2A28" stroke-width="4"/>
+    <circle cx="600" cy="300" r="30" fill="#3C2A28" stroke="#3C2A28" stroke-width="4"/>
+  </g>
+
+  <!-- Label for Target -->
+  <text x="600" y="510" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle">
+    Where it Lands
+  </text>
+  <text x="600" y="540" font-family="Arial, sans-serif" font-size="26" fill="#261312" text-anchor="middle" font-style="italic">
+    (No Control)
+  </text>
+
+  <!-- The "Wind" / Fate (Middle) -->
+  <path d="M 370 280 Q 400 260 430 280 T 490 280" fill="none" stroke="#879A39" stroke-width="5" stroke-dasharray="8,4"/>
+  <path d="M 360 320 Q 400 300 440 320 T 500 320" fill="none" stroke="#879A39" stroke-width="5" stroke-dasharray="8,4"/>
+  
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="28" fill="#3C2A28" text-anchor="middle" font-weight="bold">
+    FATE
+  </text>
+
+  <!-- Arrows representing the paths -->
+  
+  <!-- 1. Intended Path (Dotted) -->
+  <line x1="210" y1="340" x2="580" y2="340" stroke="#3C2A28" stroke-width="3" stroke-dasharray="10,5" opacity="0.6"/>
+  <text x="290" y="330" font-family="Arial, sans-serif" font-size="26" fill="#3C2A28" text-anchor="middle">
+    Intent
+  </text>
+
+  <!-- 2. Actual Path (Solid, Curved by wind) -->
+  <path d="M 210 340 Q 400 340 540 385" fill="none" stroke="#3C2A28" stroke-width="5" marker-end="url(#arrowhead)"/>
+  <text x="480" y="410" font-family="Arial, sans-serif" font-size="26" fill="#3C2A28" text-anchor="middle">
+    Reality
+  </text>
+
+  <!-- Definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+</svg>

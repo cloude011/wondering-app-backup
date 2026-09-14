@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="0" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold"
+        fill="#261312" text-anchor="middle">
+    Evolution of Stoicism
+  </text>
+
+  <!-- Main Timeline Axis -->
+  <line x1="50" y1="300" x2="740" y2="300"
+        stroke="#3C2A28" stroke-width="4" marker-end="url(#arrowhead)"/>
+
+  <!-- SECTION 1: ZENO -->
+  <!-- Date -->
+  <text x="150" y="210" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle">
+    300 BC
+  </text>
+  
+  <!-- Connecting Line -->
+  <line x1="150" y1="220" x2="150" y2="240" stroke="#3C2A28" stroke-width="2"/>
+
+  <!-- Box -->
+  <rect x="70" y="240" width="160" height="120" rx="10"
+        fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  
+  <!-- Name -->
+  <text x="150" y="300" font-family="Arial, sans-serif" font-size="30" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Zeno
+  </text>
+
+  <!-- Location -->
+  <text x="150" y="410" font-family="Arial, sans-serif" font-size="26" font-style="italic"
+        fill="#261312" text-anchor="middle">
+    Athens
+  </text>
+
+  <!-- SECTION 2: SENECA -->
+  <!-- Date -->
+  <text x="400" y="210" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle">
+    4 BC
+  </text>
+
+  <!-- Connecting Line -->
+  <line x1="400" y1="220" x2="400" y2="240" stroke="#3C2A28" stroke-width="2"/>
+
+  <!-- Box -->
+  <rect x="320" y="240" width="160" height="120" rx="10"
+        fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+
+  <!-- Name -->
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="30" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Seneca
+  </text>
+
+  <!-- Location -->
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="26" font-style="italic"
+        fill="#261312" text-anchor="middle">
+    Rome
+  </text>
+
+  <!-- SECTION 3: AURELIUS -->
+  <!-- Date -->
+  <text x="650" y="210" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle">
+    161 AD
+  </text>
+
+  <!-- Connecting Line -->
+  <line x1="650" y1="220" x2="650" y2="240" stroke="#3C2A28" stroke-width="2"/>
+
+  <!-- Box -->
+  <rect x="570" y="240" width="160" height="120" rx="10"
+        fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+
+  <!-- Name -->
+  <text x="650" y="300" font-family="Arial, sans-serif" font-size="30" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Aurelius
+  </text>
+
+  <!-- Location -->
+  <text x="650" y="410" font-family="Arial, sans-serif" font-size="26" font-style="italic"
+        fill="#261312" text-anchor="middle">
+    Rome
+  </text>
+
+  <!-- Era Labels (Bottom decorative lines) -->
+  <line x1="280" y1="450" x2="280" y2="500" stroke="#3C2A28" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <text x="150" y="480" font-family="Arial, sans-serif" font-size="26"
+        fill="#3C2A28" text-anchor="middle" opacity="0.7">
+    Early Stoa
+  </text>
+
+  <text x="525" y="480" font-family="Arial, sans-serif" font-size="26"
+        fill="#3C2A28" text-anchor="middle" opacity="0.7">
+    Late Stoa
+  </text>
+
+</svg>

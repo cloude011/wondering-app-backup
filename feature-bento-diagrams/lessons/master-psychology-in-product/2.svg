@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Definitions for decorative elements -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="0" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Section Titles -->
+  <text x="200" y="70" font-family="Arial, sans-serif" font-size="36" font-weight="bold"
+        fill="#261312" text-anchor="middle">High Load</text>
+  <text x="600" y="70" font-family="Arial, sans-serif" font-size="36" font-weight="bold"
+        fill="#261312" text-anchor="middle">Low Load</text>
+
+  <!-- Vertical Divider -->
+  <line x1="400" y1="100" x2="400" y2="520" stroke="#3C2A28" stroke-width="2" stroke-dasharray="8 8" opacity="0.3"/>
+
+  <!-- LEFT SIDE: High Cognitive Load (Cluttered Interface) -->
+  <!-- Device Frame -->
+  <rect x="70" y="100" width="260" height="420" rx="20"
+        fill="#FFFFFF" stroke="#3C2A28" stroke-width="4"/>
+  
+  <!-- Busy Header -->
+  <rect x="90" y="130" width="220" height="40" rx="4" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+  
+  <!-- Many Small Options (The Load) -->
+  <rect x="90" y="190" width="100" height="60" rx="4" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+  <rect x="210" y="190" width="100" height="60" rx="4" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+  
+  <rect x="90" y="270" width="65" height="65" rx="4" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+  <rect x="167" y="270" width="65" height="65" rx="4" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+  <rect x="245" y="270" width="65" height="65" rx="4" fill="#DFB431" stroke="#3C2A28" stroke-width="2"/>
+  
+  <!-- Dense Text Block Simulation -->
+  <rect x="90" y="355" width="220" height="120" rx="4" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+  <line x1="105" y1="375" x2="295" y2="375" stroke="#3C2A28" stroke-width="2"/>
+  <line x1="105" y1="395" x2="295" y2="395" stroke="#3C2A28" stroke-width="2"/>
+  <line x1="105" y1="415" x2="295" y2="415" stroke="#3C2A28" stroke-width="2"/>
+  <line x1="105" y1="435" x2="245" y2="435" stroke="#3C2A28" stroke-width="2"/>
+
+  <!-- Bottom Label Left -->
+  <text x="200" y="570" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle">Overwhelming</text>
+
+  <!-- RIGHT SIDE: Low Cognitive Load (Clean Interface) -->
+  <!-- Device Frame -->
+  <rect x="470" y="100" width="260" height="420" rx="20"
+        fill="#FFFFFF" stroke="#3C2A28" stroke-width="4"/>
+
+  <!-- Hero Image Area -->
+  <rect x="490" y="130" width="220" height="200" rx="8" fill="#7BCAFF" stroke="#3C2A28" stroke-width="2"/>
+  
+  <!-- Clear Heading Simulation -->
+  <line x1="490" y1="360" x2="650" y2="360" stroke="#3C2A28" stroke-width="6" stroke-linecap="round"/>
+  <line x1="490" y1="385" x2="600" y2="385" stroke="#3C2A28" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Primary Action Button (CTA) -->
+  <rect x="490" y="430" width="220" height="60" rx="8" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <text x="600" y="460" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        fill="#FFFCF0" text-anchor="middle" dy="0.35em">Action</text>
+
+  <!-- Bottom Label Right -->
+  <text x="600" y="570" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle">Focused</text>
+
+</svg>

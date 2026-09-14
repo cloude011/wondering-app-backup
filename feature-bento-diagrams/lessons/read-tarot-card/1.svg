@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">
+    Tarot Numerology
+  </text>
+  
+  <!-- Column 1 (1-5) -->
+  
+  <!-- Card 1 -->
+  <g>
+    <rect x="40" y="110" width="340" height="75" rx="12" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+    <circle cx="85" cy="147.5" r="26" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    <text x="85" y="147.5" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">1</text>
+    <text x="230" y="147.5" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">New Start</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g>
+    <rect x="40" y="200" width="340" height="75" rx="12" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+    <circle cx="85" cy="237.5" r="26" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    <text x="85" y="237.5" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">2</text>
+    <text x="230" y="237.5" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">Balance</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g>
+    <rect x="40" y="290" width="340" height="75" rx="12" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+    <circle cx="85" cy="327.5" r="26" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    <text x="85" y="327.5" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">3</text>
+    <text x="230" y="327.5" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">Creation</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g>
+    <rect x="40" y="380" width="340" height="75" rx="12" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+    <circle cx="85" cy="417.5" r="26" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    <text x="85" y="417.5" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">4</text>
+    <text x="230" y="417.5" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">Stability</text>
+  </g>
+
+  <!-- Card 5 -->
+  <g>
+    <rect x="40" y="470" width="340" height="75" rx="12" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+    <circle cx="85" cy="507.5" r="26" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    <text x="85" y="507.5" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">5</text>
+    <text x="230" y="507.5" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">Conflict</text>
+  </g>
+
+  <!-- Column 2 (6-10) -->
+
+  <!-- Card 6 -->
+  <g>
+    <rect x="420" y="110" width="340" height="75" rx="12" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+    <circle cx="465" cy="147.5" r="26" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    <text x="465" y="147.5" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">6</text>
+    <text x="610" y="147.5" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">Harmony</text>
+  </g>
+
+  <!-- Card 7 -->
+  <g>
+    <rect x="420" y="200" width="340" height="75" rx="12" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+    <circle cx="465" cy="237.5" r="26" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    <text x="465" y="237.5" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">7</text>
+    <text x="610" y="237.5" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">Choices</text>
+  </g>
+
+  <!-- Card 8 -->
+  <g>
+    <rect x="420" y="290" width="340" height="75" rx="12" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+    <circle cx="465" cy="327.5" r="26" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    <text x="465" y="327.5" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">8</text>
+    <text x="610" y="327.5" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">Action</text>
+  </g>
+
+  <!-- Card 9 -->
+  <g>
+    <rect x="420" y="380" width="340" height="75" rx="12" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+    <circle cx="465" cy="417.5" r="26" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    <text x="465" y="417.5" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">9</text>
+    <text x="610" y="417.5" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">Fruition</text>
+  </g>
+
+  <!-- Card 10 -->
+  <g>
+    <rect x="420" y="470" width="340" height="75" rx="12" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+    <circle cx="465" cy="507.5" r="26" fill="#FFFCF0" stroke="#3C2A28" stroke-width="2"/>
+    <text x="465" y="507.5" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">10</text>
+    <text x="610" y="507.5" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">Completion</text>
+  </g>
+
+</svg>

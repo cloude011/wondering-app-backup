@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- 1. Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- 2. Definitions for Arrowheads -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="0" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- 3. Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="36" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Sources of Roman Law
+  </text>
+
+  <!-- ================= LEFT COLUMN: REPUBLIC / SENATE ================= -->
+
+  <!-- Step 1: Proposal -->
+  <rect x="60" y="100" width="280" height="80" rx="10"
+        fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Magistrate Idea
+  </text>
+
+  <!-- Arrow 1 -->
+  <line x1="200" y1="180" x2="200" y2="208"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="215" y="200" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="start">
+    Republic
+  </text>
+
+  <!-- Step 2: Debate (Diamond) -->
+  <!-- Center: 200, 265. Width: 300, Height: 90 -->
+  <polygon points="200,220 350,265 200,310 50,265"
+           fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <text x="200" y="265" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Senate Debate
+  </text>
+
+  <!-- Arrow 2 -->
+  <line x1="200" y1="310" x2="200" y2="348"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 3: Vote -->
+  <rect x="60" y="360" width="280" height="80" rx="10"
+        fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <text x="200" y="400" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Assembly Vote
+  </text>
+
+  <!-- Arrow 3 (To Result) -->
+  <line x1="200" y1="440" x2="330" y2="480"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- ================= RIGHT COLUMN: EMPIRE / EMPEROR ================= -->
+
+  <!-- Step 1: Will -->
+  <rect x="460" y="100" width="280" height="80" rx="10"
+        fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Emperor's Will
+  </text>
+
+  <!-- Arrow 4 (Long Arrow Bypassing Debate) -->
+  <line x1="600" y1="180" x2="600" y2="348"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Labels for the bypass -->
+  <text x="615" y="230" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="start">
+    Empire Era
+  </text>
+  <text x="615" y="260" font-family="Arial, sans-serif" font-size="26" font-style="italic"
+        fill="#261312" text-anchor="start">
+    (No Vote)
+  </text>
+
+  <!-- Step 2: Edict -->
+  <rect x="460" y="360" width="280" height="80" rx="10"
+        fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <text x="600" y="400" font-family="Arial, sans-serif" font-size="28"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Imperial Edict
+  </text>
+
+  <!-- Arrow 5 (To Result) -->
+  <line x1="600" y1="440" x2="470" y2="480"
+        stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- ================= BOTTOM: RESULT ================= -->
+
+  <rect x="250" y="490" width="300" height="80" rx="10"
+        fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <text x="400" y="530" font-family="Arial, sans-serif" font-size="32" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    ROMAN LAW
+  </text>
+
+</svg>

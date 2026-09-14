@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Definitions for Arrowheads -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="0" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Title Section -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold"
+        fill="#261312" text-anchor="middle">
+    QUANTUM ENERGY
+  </text>
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="32"
+        fill="#3C2A28" text-anchor="middle">
+    Equation: E = h × f
+  </text>
+
+  <!-- Connecting Lines (Drawn first to be behind shapes if overlap occurs, though layout avoids it) -->
+  <!-- Left Arrow: Frequency to Energy -->
+  <line x1="200" y1="290" x2="360" y2="418"
+        stroke="#3C2A28" stroke-width="4" marker-end="url(#arrowhead)"/>
+  
+  <!-- Right Arrow: Constant to Energy -->
+  <line x1="600" y1="290" x2="440" y2="418"
+        stroke="#3C2A28" stroke-width="4" marker-end="url(#arrowhead)"/>
+
+  <!-- Relationship Labels (Beside lines) -->
+  <text x="180" y="360" font-family="Arial, sans-serif" font-size="26"
+        fill="#3C2A28" text-anchor="end">
+    Proportional To
+  </text>
+  
+  <text x="620" y="360" font-family="Arial, sans-serif" font-size="26"
+        fill="#3C2A28" text-anchor="start">
+    Scaled By
+  </text>
+
+  <!-- Node 1: Frequency (Top Left) -->
+  <rect x="60" y="150" width="280" height="140" rx="20"
+        fill="#7BCAFF" stroke="#3C2A28" stroke-width="4"/>
+  <text x="200" y="205" font-family="Arial, sans-serif" font-size="30" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Frequency (f)
+  </text>
+  <text x="200" y="245" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    (Wave Color)
+  </text>
+
+  <!-- Node 2: Planck's Constant (Top Right) -->
+  <rect x="460" y="150" width="280" height="140" rx="20"
+        fill="#DFB431" stroke="#3C2A28" stroke-width="4"/>
+  <text x="600" y="205" font-family="Arial, sans-serif" font-size="30" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Planck's Constant
+  </text>
+  <text x="600" y="245" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    (Fixed Value h)
+  </text>
+
+  <!-- Node 3: Energy (Bottom Center) -->
+  <rect x="260" y="430" width="280" height="140" rx="20"
+        fill="#5ABDAC" stroke="#3C2A28" stroke-width="4"/>
+  <text x="400" y="485" font-family="Arial, sans-serif" font-size="30" font-weight="bold"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    Photon Energy (E)
+  </text>
+  <text x="400" y="525" font-family="Arial, sans-serif" font-size="26"
+        fill="#261312" text-anchor="middle" dy="0.35em">
+    (Particle Punch)
+  </text>
+
+</svg>

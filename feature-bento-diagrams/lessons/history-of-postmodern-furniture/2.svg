@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+
+  <!-- Main Title -->
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#261312" text-anchor="middle" dy="0.35em">
+    Postmodern Materials
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="28" fill="#3C2A28" text-anchor="middle" dy="0.35em">
+    Key Elements of 1980s Design
+  </text>
+
+  <!-- Section 1: Plastic Laminate -->
+  <g transform="translate(60, 200)">
+    <!-- Material Sample -->
+    <rect x="0" y="0" width="200" height="200" rx="10" fill="#DFB431" stroke="#3C2A28" stroke-width="4"/>
+    
+    <!-- Memphis Pattern Deco -->
+    <circle cx="40" cy="40" r="8" fill="#261312"/>
+    <circle cx="160" cy="160" r="8" fill="#261312"/>
+    <circle cx="100" cy="100" r="8" fill="#261312"/>
+    <path d="M30 150 L60 180 M140 30 L170 60 M40 100 L70 100" stroke="#261312" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120 40 Q140 20 160 40 T200 40" fill="none" stroke="#261312" stroke-width="4"/>
+    
+    <!-- Label -->
+    <text x="100" y="250" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">
+      Laminate
+    </text>
+  </g>
+
+  <!-- Section 2: Fiberglass -->
+  <g transform="translate(300, 200)">
+    <!-- Material Sample: Molded Shape -->
+    <path d="M20 50 C20 10, 180 10, 180 50 C180 140, 160 180, 100 180 C40 180, 20 140, 20 50 Z" fill="#5ABDAC" stroke="#3C2A28" stroke-width="4"/>
+    
+    <!-- Contour line for depth -->
+    <path d="M40 60 C40 40, 160 40, 160 60" fill="none" stroke="#3C2A28" stroke-width="2" opacity="0.5"/>
+    
+    <!-- Label -->
+    <text x="100" y="250" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">
+      Fiberglass
+    </text>
+  </g>
+
+  <!-- Section 3: Chrome -->
+  <g transform="translate(540, 200)">
+    <!-- Material Sample: Tubular Steel -->
+    <rect x="0" y="0" width="200" height="200" fill="none"/> <!-- Bounding box for alignment -->
+    
+    <!-- The Tube Shape -->
+    <path d="M50 20 L50 140 Q50 180 90 180 L110 180 Q150 180 150 140 L150 20" fill="none" stroke="#7BCAFF" stroke-width="30" stroke-linecap="round"/>
+    
+    <!-- Outline -->
+    <path d="M50 20 L50 140 Q50 180 90 180 L110 180 Q150 180 150 140 L150 20" fill="none" stroke="#3C2A28" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Shine Highlight -->
+    <path d="M60 30 L60 130 Q60 150 80 155" fill="none" stroke="#FFFCF0" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    
+    <!-- Label -->
+    <text x="100" y="250" font-family="Arial, sans-serif" font-size="30" fill="#261312" text-anchor="middle" dy="0.35em">
+      Chrome
+    </text>
+  </g>
+
+  <!-- Decorative Line at Bottom -->
+  <line x1="100" y1="520" x2="700" y2="520" stroke="#3C2A28" stroke-width="4" stroke-linecap="round"/>
+  <rect x="380" y="500" width="40" height="40" fill="#879A39" stroke="#3C2A28" stroke-width="4" transform="rotate(45 400 520)"/>
+
+</svg>

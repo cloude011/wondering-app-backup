@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Definitions for Arrowheads -->
+  <defs>
+    <marker id="arrow-dark" markerWidth="12" markerHeight="10"
+            markerUnits="userSpaceOnUse" refX="12" refY="5" orient="auto">
+      <polygon points="0 0, 12 5, 0 10" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold"
+        fill="#261312" text-anchor="middle">
+    Parenting Hierarchy of Needs
+  </text>
+
+  <!-- Level 1: Base (Safety) -->
+  <g transform="translate(0, 0)">
+    <!-- Shape: Trapezoid -->
+    <polygon points="110,460 490,460 540,560 60,560"
+             fill="#5ABDAC" stroke="#3C2A28" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Label inside shape -->
+    <text x="300" y="510" font-family="Arial, sans-serif" font-size="30" font-weight="bold"
+          fill="#261312" text-anchor="middle" dy="0.35em">
+      Physical Safety
+    </text>
+    <!-- Connection Line -->
+    <line x1="580" y1="510" x2="525" y2="510"
+          stroke="#3C2A28" stroke-width="3" marker-end="url(#arrow-dark)"/>
+    <!-- Parent Action Label -->
+    <text x="590" y="510" font-family="Arial, sans-serif" font-size="28"
+          fill="#261312" text-anchor="start" dy="0.35em">
+      Provide Stability
+    </text>
+  </g>
+
+  <!-- Level 2: Connection (Love) -->
+  <g transform="translate(0, 0)">
+    <!-- Shape: Trapezoid -->
+    <polygon points="160,350 440,350 490,450 110,450"
+             fill="#7BCAFF" stroke="#3C2A28" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Label inside shape -->
+    <text x="300" y="400" font-family="Arial, sans-serif" font-size="30" font-weight="bold"
+          fill="#261312" text-anchor="middle" dy="0.35em">
+      Connection
+    </text>
+    <!-- Connection Line -->
+    <line x1="580" y1="400" x2="475" y2="400"
+          stroke="#3C2A28" stroke-width="3" marker-end="url(#arrow-dark)"/>
+    <!-- Parent Action Label -->
+    <text x="590" y="400" font-family="Arial, sans-serif" font-size="28"
+          fill="#261312" text-anchor="start" dy="0.35em">
+      Show Empathy
+    </text>
+  </g>
+
+  <!-- Level 3: Confidence (Esteem) -->
+  <g transform="translate(0, 0)">
+    <!-- Shape: Trapezoid -->
+    <polygon points="210,240 390,240 440,340 160,340"
+             fill="#DFB431" stroke="#3C2A28" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Label inside shape -->
+    <text x="300" y="290" font-family="Arial, sans-serif" font-size="30" font-weight="bold"
+          fill="#261312" text-anchor="middle" dy="0.35em">
+      Confidence
+    </text>
+    <!-- Connection Line -->
+    <line x1="580" y1="290" x2="425" y2="290"
+          stroke="#3C2A28" stroke-width="3" marker-end="url(#arrow-dark)"/>
+    <!-- Parent Action Label -->
+    <text x="590" y="290" font-family="Arial, sans-serif" font-size="28"
+          fill="#261312" text-anchor="start" dy="0.35em">
+      Praise Effort
+    </text>
+  </g>
+
+  <!-- Level 4: Top (Growth) -->
+  <g transform="translate(0, 0)">
+    <!-- Shape: Triangle -->
+    <polygon points="300,130 390,230 210,230"
+             fill="#879A39" stroke="#3C2A28" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Label inside shape (Light text for contrast on dark green) -->
+    <text x="300" y="195" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+          fill="#FFFCF0" text-anchor="middle" dy="0.35em">
+      Growth
+    </text>
+    <!-- Connection Line -->
+    <line x1="580" y1="195" x2="385" y2="195"
+          stroke="#3C2A28" stroke-width="3" marker-end="url(#arrow-dark)"/>
+    <!-- Parent Action Label -->
+    <text x="590" y="195" font-family="Arial, sans-serif" font-size="28"
+          fill="#261312" text-anchor="start" dy="0.35em">
+      Support Dreams
+    </text>
+  </g>
+
+  <!-- Legend / Context -->
+  <text x="300" y="585" font-family="Arial, sans-serif" font-size="26" fill="#3C2A28" text-anchor="middle" font-style="italic">
+    Child's Needs
+  </text>
+  <text x="660" y="585" font-family="Arial, sans-serif" font-size="26" fill="#3C2A28" text-anchor="middle" font-style="italic">
+    Parent's Role
+  </text>
+
+</svg>

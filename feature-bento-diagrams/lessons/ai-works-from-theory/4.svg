@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFCF0"/>
+  
+  <!-- Definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12"
+            markerUnits="userSpaceOnUse" refX="0" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 L3,6 Z" fill="#3C2A28"/>
+    </marker>
+  </defs>
+
+  <!-- Central Divider -->
+  <line x1="400" y1="80" x2="400" y2="560" stroke="#3C2A28" stroke-width="2" stroke-dasharray="8 8" opacity="0.5"/>
+
+  <!-- HEADERS -->
+  <text x="200" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#3C2A28" text-anchor="middle">Supervised</text>
+  <text x="600" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#3C2A28" text-anchor="middle">Unsupervised</text>
+
+  <!-- === LEFT COLUMN (Supervised) === -->
+  
+  <!-- Step 1: Input -->
+  <rect x="60" y="90" width="280" height="110" rx="12" fill="#7BCAFF" stroke="#3C2A28" stroke-width="3"/>
+  <text x="200" y="145" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">Labeled Data</text>
+  
+  <!-- Arrow 1 -->
+  <line x1="200" y1="200" x2="200" y2="228" stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: Process -->
+  <rect x="60" y="240" width="280" height="110" rx="12" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+  <text x="200" y="295" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">Train Model</text>
+  
+  <!-- Arrow 2 -->
+  <line x1="200" y1="350" x2="200" y2="378" stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Output -->
+  <rect x="60" y="390" width="280" height="110" rx="12" fill="#5ABDAC" stroke="#3C2A28" stroke-width="3"/>
+  <text x="200" y="445" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">Prediction</text>
+
+  <!-- Example Label -->
+  <text x="200" y="540" font-family="Arial, sans-serif" font-size="26" fill="#3C2A28" font-style="italic" text-anchor="middle">e.g., Spam Filter</text>
+
+
+  <!-- === RIGHT COLUMN (Unsupervised) === -->
+  
+  <!-- Step 1: Input -->
+  <!-- Dashed stroke implies raw/undefined nature -->
+  <rect x="460" y="90" width="280" height="110" rx="12" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="600" y="145" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">Raw Data</text>
+  
+  <!-- Arrow 1 -->
+  <line x1="600" y1="200" x2="600" y2="228" stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: Process -->
+  <rect x="460" y="240" width="280" height="110" rx="12" fill="#FFFCF0" stroke="#3C2A28" stroke-width="3"/>
+  <text x="600" y="295" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">Find Patterns</text>
+  
+  <!-- Arrow 2 -->
+  <line x1="600" y1="350" x2="600" y2="378" stroke="#3C2A28" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Output -->
+  <rect x="460" y="390" width="280" height="110" rx="12" fill="#DFB431" stroke="#3C2A28" stroke-width="3"/>
+  <text x="600" y="445" font-family="Arial, sans-serif" font-size="28" fill="#261312" text-anchor="middle" dy="0.35em">Clusters</text>
+
+  <!-- Example Label -->
+  <text x="600" y="540" font-family="Arial, sans-serif" font-size="26" fill="#3C2A28" font-style="italic" text-anchor="middle">e.g., User Groups</text>
+
+</svg>
